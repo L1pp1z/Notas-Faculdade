@@ -4,14 +4,18 @@ Lumines:
 `https://github.com/danielkhmara/obsidian-lumines`
 NovaDust:
 `https://github.com/mmartamg/novadust-obsidian`
+Encore:
+`https://github.com/Carbonateb/obsidian-encore-theme`
+Vicious:
+`https://github.com/zaheralmajed/vicious-theme-obsidian`
 
 ---
 #### FONTES:
 Jetbrain Nerd Font:
 `https://github.com/mmartamg/novadust-obsidian`
+`https://www.jetbrains.com/lp/mono/`
 
 ---
-
 #### PLUGINS:
 Code Styler: Modifica a visualização dos códigos dentro das caixas
 `https://github.com/mayurankv/Obsidian-Code-Styler`
@@ -34,12 +38,16 @@ Para centralizar as imagens dentro do obsidian você precisa criar um `.css` seg
 
 - Vá para Configurações > Aparência > Snippets de CSS e clique no ícone de pasta.
 - Crie um novo arquivo (ex: centralizar-imagens.css) com o seguinte código:
-```css
-img[alt*="center"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}   
+```css title:Centralizar_Imagens
+img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+  margin: auto auto !important;
+}
 ```
 - Retorne ao Obsidian, clique no botão atualizar na seção de Snippets de CSS.
 - Ative o botão ao lado do arquivo que você criou

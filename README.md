@@ -1,3 +1,5 @@
+Para ler o projeto de uma forma melhor utilize o modo leitura do obsidian ou simplesmente o atalho `ctrl + E` para alternar entre os modos de visualização
+
 Utilizo as seguintes configurações no OBSIDIAN.  Temas e Plugins podem ser baixados pelo próprio OBSIDIAN
 #### TEMAS:
 Lumines:
